@@ -1,0 +1,6 @@
+#ifndef T24E_COMMON_LIBRARY_H
+#define T24E_COMMON_LIBRARY_H
+
+void hello();
+
+#endif //T24E_COMMON_LIBRARY_H
