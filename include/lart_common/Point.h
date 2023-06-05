@@ -79,7 +79,7 @@ namespace lart_common {
             double distanceTo(const Point& other);
 
             /*! \brief Get a string representation of this instance. */
-            std::string _str_();
+            std::string _str_() const;
 
             /*! @brief Compare this Point instance with a CGAL point by coordinates */
             bool operator==(const K::Point_2& other) const;
@@ -90,8 +90,6 @@ namespace lart_common {
             bool operator==(const Point& other) const;
 
             bool operator!=(const Point& other) const;
-
-            std::string _str_() const;
     };
 
 } // lart_common
