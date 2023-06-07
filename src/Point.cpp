@@ -66,6 +66,14 @@ namespace lart_common {
         this->theta = theta;
     }
 
+    unsigned long Point::getTimestamp() const {
+        return timestamp;
+    }
+
+    void Point::setTimestamp(const unsigned long& t) {
+        this->timestamp = t;
+    }
+
     K::Point_2 Point::getAsCGALPoint() const {
         if(!this->xSet or !this->ySet)
             throw std::runtime_error("Point not completely set!");
