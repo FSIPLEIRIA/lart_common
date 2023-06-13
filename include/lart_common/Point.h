@@ -23,6 +23,8 @@ namespace lart_common {
             /*! @brief Yaw angle value */
             double theta;
 
+            unsigned long timestamp;
+
             bool xSet = false;
             bool ySet = false;
             bool thetaSet = false;
@@ -71,6 +73,9 @@ namespace lart_common {
             double getTheta() const;
             /*! @brief Set yaw angle */
             void setTheta(const double& theta);
+
+            unsigned long getTimestamp() const;
+            void setTimestamp(const unsigned long& t);
 
             /*! @brief Get the Point as a CGAL point */
             K::Point_2 getAsCGALPoint() const;

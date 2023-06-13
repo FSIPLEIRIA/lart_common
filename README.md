@@ -2,11 +2,13 @@
 
 Components common to the different pipeline packages.
 
-## Requisites
+## Requirements
 
-- ...
+- CGAL
 
-## Instalation
+## Setup
 
-- ...
+### Bare Metal
+
+- From the project's root directory, run the command `./scripts/build.sh`.
 
